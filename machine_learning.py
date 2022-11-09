@@ -29,3 +29,8 @@ base_credit['age'].fillna(base_credit['age'].mean(), inplace = True)
 
 #fitrando por valores.
 base_credit.loc(base_credit['clientid']).isin(29,31,32)
+
+
+#Rows and Columns of the array:
+
+x_census.shape()
